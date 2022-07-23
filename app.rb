@@ -41,9 +41,9 @@ class App
     selection = gets.chomp
 
     case selection
-    when '1'
+    when 1
       create_student
-    when '2'
+    when 2
       create_teacher
     end
   end
